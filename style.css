@@ -1,0 +1,134 @@
+html{
+    background-image: url(./bgcolor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px solid greenyellow;
+    margin: 0;
+  }
+
+.flex-container{
+   
+display: flex;
+flex-flow: row;
+justify-content: space-between;
+}
+.flex-item1{
+background-color: black;
+border-radius: 60px ;
+width: 420px;
+height: 120px;
+border: 10px red solid;
+padding: 30px;
+ 
+}
+.flex-item2{
+    background-color: black;
+    border-radius: 60px ;
+    width: 460px;
+    height: 75px;
+    border: 10px red solid;
+    position: absolute;
+    top: 30px;
+    left: 330px;
+
+
+}
+.flex-item3{
+    background-color: black;
+    border-radius: 60px ;
+    width: 430px;
+    height: 120px;
+    border: 10px red solid;
+    padding: 30px;
+    position: absolute;
+    right: 50px;
+
+}
+.circle{
+    margin-top: 400px;
+    margin-left: 50px;
+    background-color: rgb(127, 255, 240);
+    border: solid gray 5px;
+    width: 430px;
+    height: 430px;
+    border-radius: 50%;
+}
+.table{
+    border: dashed red 10px;
+    background-color: aliceblue;
+    position: absolute;
+    left: 800px;
+    top: 350px;
+}
+.test1{
+    background-color: black;
+    border-radius: 50px;
+    width: 500px;
+    height: 70px;
+    border: solid red 10px;
+    padding: 15px;
+    position: relative;
+    left: 450px;
+    top: 30px;    
+}
+
+.flex-cards{
+   
+    display: flex;
+    flex-flow: row;
+    justify-content:  space-around;
+    }
+
+
+
+.flex-item4{
+    background-color: aqua;
+    border-radius: 40px;
+    width: 350px;
+    height: 350px;
+    border: solid green 4px;
+    
+}
+.flex-item5{
+    background-color: aqua;
+    border-radius: 40px;
+    width: 350px;
+    height: 350px;
+    border: solid green 4px;
+}
+.flex-item6{
+    background-color: aqua;
+    border-radius: 40px;
+    width: 350px;
+    height: 350px;
+    border: solid green 4px;
+}
+
+
+.flex-menu{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+.flex-item7{
+    background-color: aqua;
+    border-radius: 40px;
+    width: 350px;
+    height: 350px;
+    border: solid green 4px;
+}
+.flex-item8{
+    background-color: aqua;
+    border-radius: 40px;
+    width: 350px;
+    height: 350px;
+    border: solid green 4px;
+}
+.flex-item9{
+    background-color: aqua;
+    border-radius: 40px;
+    width: 350px;
+    height: 350px;
+    border: solid green 4px;
+}
+
